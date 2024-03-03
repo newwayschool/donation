@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learningwithskill</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style1.css">
+   
+    
+    <script type="text/javascript">
+        function preback() { window.history.forward();}
+        setTimeout("preback()", 0); window.onunload = function () { null };
+    </script>
+</head>
+<body>
+    <script>
+   function data()
+   {
+        var a=document.getElementById("m1").value;
+        var b=document.getElementById("m2").value;
+        var c=document.getElementById("m3").value;
+        var d=document.getElementById("m4").value;
+        
+        if(a!=b)
+        {
+          alert("Invalid Registration :");
+            return false;
+            }
+            else if(c!=d)
+        {
+          alert("Please Fill Valid DOB :");
+            return false;
+            }else
+            {
+                true;
+            }
+        }
+    </script>
+    <form onsubmit="return data()" action="bwbs3.html">
+  
+       
+       </div>
+    </div>
+     
+              <div class="aaa"></div>
+                  <div class="cover1"></div> 
+                  <div class="jumbotrone cover2">
+                      
+                  <div class="bbb">
+                     <h2 class="ccc1 text-left">REGISTRATION </h2>
+               <input type="hidden" id="m1" value="243456" class="ddd1" required>
+                     <input type="tel" id="m2" placeholder="  Enter your registration no." class="ddd1" required>
+                     
+                     <input type="hidden" id="m3" value="12/07/2004" Class="ddd3" required>
+                     <input type="text" id="m4" placeholder="  Your date of birth" Class="ddd3" required>  
+                     <button type="submit" class="next">Submit</button> 
+                 
+           </div>
+         </div>                 
+      </form>     
+       
+    </body>
+</html>
